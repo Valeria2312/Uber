@@ -1,0 +1,441 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  position: relative;
+}
+nav {
+  height: 53px;
+  background: #212121;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+.menu .menu_link {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  align-items: center;
+  color: #FFFFFF;
+}
+.menu .menu_item {
+  border-right: 2px dotted #000000;
+  padding-right: 45px;
+}
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  background: rgba(0,0,0, .6);
+}
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+.subheader .subheader_official {
+  margin-top: 6px;
+  font-weight: 200;
+  font-size: 13px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.subheader_call {
+  margin-top: 19px;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  font-size: 22px;
+  line-height: 12px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+.promo {
+  min-height: 800px;
+  background: url("../img/uber_bg.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+.promo .promo_header {
+  font-weight: 700;
+  font-size: 60px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 60px;
+  margin: 0;
+}
+.promo .promo_subheader {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 2px;
+}
+.promo .promo_descr {
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0;
+  width: 259px;
+  height: 63px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.advantages {
+  min-height: 849px;
+  padding: 31px 0 65px 0;
+}
+.advantages .label, .application .label {
+  margin: 0 auto;
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 5px 12px;
+}
+.advantages .title, .application .application_header {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.advantages .advantages_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.advantages .advantages_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 116px;
+  height: 116px;
+  background: #1EACC7;
+  border-radius: 100%;
+  margin-right: 26px;
+}
+.advantages .advantages_descr {
+  width: 371px;
+}
+.advantages .advantages_subtitle {
+  font-size: 17px;
+  line-height: 21px;
+  /*align-items: center;*/
+  color: #1EACC7;
+}
+.advantages .advantages_text {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #202020;
+}
+.application {
+  min-height: 864px;
+  background: url("../img/mobile_bg.jpg") center center/cover no-repeat;
+  padding: 31px;
+}
+.application .application_subheader {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+}
+.application .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.application .card_text {
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.application .card {
+  position: relative;
+}
+.application img {
+  width: 320px;
+  height: 280px;
+}
+.application .application_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 29px;
+  height: 29px;
+  background: #000000;
+  border-radius: 100%;
+}
+.plus img {
+  position: absolute;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+}
+.application .plus {
+  position: absolute;
+  bottom: 34px;
+}
+.car {
+  min-height: 898px;
+  background: url("../img/car_bg.jpg") center center/cover no-repeat;
+  padding: 57px;
+}
+.car .label {
+  margin: 0 auto;
+  width: 115px;
+  height: 27px;
+  background: #FFFFFF;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #070716;
+  padding: 5px 12px;
+}
+.car .car_header {
+  margin-top: 26px;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.car .car_subheader {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF
+}
+.car img {
+  padding-top: 54px;
+  display:block;
+  margin:auto;
+}
+.car .car_text {
+  margin-bottom: 137px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #222222;
+}
+.conditions {
+  min-height: 917px;
+}
+.conditions .label {
+  margin: 0 auto;
+  margin-top: 68px;
+  width: 115px;
+  height: 27px;
+  background: #070716;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #FFFFFF ;
+  padding: 5px 12px;
+}
+.conditions .conditions_header {
+  margin-top: 27px;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+}
+.conditions .yours_text, .company_text {
+  margin-top: 33px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  color: #1CA8C3;
+}
+.conditions .pay_text {
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  color: #1CA8C3;
+}
+.conditions .one_point {
+  display: flex;
+  align-items: center;
+  width: 549px;
+}
+.conditions img {
+  display: flex;
+  justify-content: center;
+}
+.one_point .text {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #222222;
+}
+.requirements_text, .documents_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  align-items: center;
+  color: #FF5656;
+}
+.parameters_blue, .parameters_red {
+  display: flex;
+  flex-direction: row;
+}
+.parameters_red {
+  margin-top: 61px;
+}
+.map {
+  padding-top: 51px;
+  background: url("../img/Group 1.jpg") center center/cover no-repeat;
+}
+.city {
+  margin: 0 auto;
+  width: 79px;
+  height: 27px;
+  background: #FFFFFF;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #070716;
+  padding: 5px 12px;
+}
+.map .header {
+  margin-top: 26px;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.map_text {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.map_a {
+  width: 223px;
+  height: 68px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  background: transparent;
+  display: block;
+  margin: 456px auto 0;
+}
+footer {
+  min-height: 133px;
+  width: 100%;
+}
+.footers {
+  display: flex;
+  justify-content: center;
+}
+.network {
+  display: flex;
+  justify-content: center;
+}
+.network_round {
+  background-color: black;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_headers, .footer_subheaders, .language {
+  text-transform: uppercase;
+  display: flex;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 68px;
+  align-items: center;
+  color: #070716;
+  justify-content: center;
+}
+.footer_headers .header_2 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.footer_subheaders .subeader {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.headers .language {
+  color: #1FBAD6
+}
